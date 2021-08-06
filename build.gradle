@@ -1,6 +1,6 @@
 buildscript {
     ext.kotlinVersion = '1.5.10'
-    ext.gradlePluginVersion = '3.5.4'
+    ext.gradlePluginVersion = '4.2.0'
 
     repositories {
         mavenLocal()
