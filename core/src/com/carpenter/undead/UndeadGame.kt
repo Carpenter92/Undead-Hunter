@@ -10,8 +10,10 @@ import ktx.app.KtxGame
 import ktx.app.KtxScreen
 import ktx.log.logger
 
+private val LOG = logger<Game>()
+const val UNIT_SCALE = 1 / 16f
+
 class UndeadGame : KtxGame<KtxScreen>() {
-    private val LOG = logger<Game>()
     val batch: Batch by lazy { SpriteBatch() }
 
     override fun create() {

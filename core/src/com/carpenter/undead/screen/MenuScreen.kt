@@ -6,8 +6,9 @@ import com.carpenter.undead.UndeadGame
 import ktx.graphics.use
 import ktx.log.logger
 
+private val LOG = logger<Screen>()
+
 class MenuScreen(game: UndeadGame) : AbstractScreen(game) {
-    private val LOG = logger<Screen>()
     private val viewport = FillViewport(9f, 16f)
 
     override fun show() {
